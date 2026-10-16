@@ -141,13 +141,13 @@ label.TextXAlignment = Enum.TextXAlignment.Left
 window.Name = "Window"
 window.Parent = prefabs
 window.Active = true
-window.BackgroundColor3 = Color3.new(240, 1, 1)
+window.BackgroundColor3 = Color3.new(1, 1, 1)
 window.BackgroundTransparency = 1
 window.ClipsDescendants = true
 window.Position = UDim2.new(0, 20, 0, 20)
 window.Selectable = true
 window.Size = UDim2.new(0, 200, 0, 200)
-window.Image = "rbxassetid://15188934411"
+window.Image = "rbxassetid://18288818033"
 window.ScaleType = Enum.ScaleType.Slice
 window.SliceCenter = Rect.new(12, 12, 12, 12)
 
@@ -2280,6 +2280,7 @@ function library:AddWindow(title, options)
 
 	return window_data, Window
 end
+
 
 return library
 
