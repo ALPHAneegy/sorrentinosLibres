@@ -141,14 +141,13 @@ label.TextXAlignment = Enum.TextXAlignment.Left
 window.Name = "Window"
 window.Parent = prefabs
 window.Active = true
-window.BackgroundColor3 = Color3.new(1, 1, 1)
+window.BackgroundColor3 = Color3.new(240, 1, 1)
 window.BackgroundTransparency = 1
 window.ClipsDescendants = true
 window.Position = UDim2.new(0, 20, 0, 20)
 window.Selectable = true
 window.Size = UDim2.new(0, 200, 0, 200)
-window.Image = "rbxassetid://2851926732"
-window.ImageColor3 = Color3.new(0.0823529, 0.0862745, 0.0901961)
+window.Image = "rbxassetid://15188934411"
 window.ScaleType = Enum.ScaleType.Slice
 window.SliceCenter = Rect.new(12, 12, 12, 12)
 
@@ -176,7 +175,7 @@ toggle.Position = UDim2.new(0, 5, 0, -2)
 toggle.Rotation = 0
 toggle.Size = UDim2.new(0, 20, 0, 20)
 toggle.ZIndex = 2
-toggle.Image = "https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=86204051700151"
+toggle.Image = "https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=100967576554570"
 
 local toggleCorner = Instance.new("UICorner")
 toggleCorner.CornerRadius = UDim.new(0.5, 0)
